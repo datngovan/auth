@@ -64,7 +64,7 @@ app.get("/logout", (req, res) => {
 
 app.get("/protected", (req, res) => {
   if (req.isAuthenticated()) {
-    res.send("Protected");
+    console.log("Protected", Protected);
   } else {
     res.status(401).send({ msg: "Unauthorized" });
   }
