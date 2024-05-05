@@ -1,0 +1,10 @@
+### get login
+GET http://localhost:5000/login
+### get register
+GET http://localhost:5000/register
+### post login
+POST http://localhost:5000/login
+### post register
+POST http://localhost:5000/register
+### get logout
+GET http://localhost:5000/logout
